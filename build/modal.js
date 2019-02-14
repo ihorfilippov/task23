@@ -1,0 +1,1 @@
+"use strict";$("#myModal").on("shown.bs.modal",function(){$("#myInput").focus()}),document.getElementById("sendContacts").addEventListener("click",function(){window.location.reload()}),console.log("Mine");

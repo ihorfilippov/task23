@@ -1,0 +1,3 @@
+"use strict";jQuery(document).ready(function(n){n(".level-bar-inner").css("width","0"),n(window).on("load",function(){n(".level-bar-inner").each(function(){var e=n(this).data("level");n(this).animate({width:e},800)})})});
+"use strict";$("#myModal").on("shown.bs.modal",function(){$("#myInput").focus()}),document.getElementById("sendContacts").addEventListener("click",function(){window.location.reload()}),console.log("Mine");
+"use strict";$(".carousel").carousel({interval:3000});
